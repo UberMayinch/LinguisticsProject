@@ -47,6 +47,6 @@ def read_file_content(file_name):
     except Exception as e:
         return f"An error occurred: {e}"
 
-SOL=read_file_content('HEGEL/POS.txt')
+SOL=read_file_content('K/EoT.txt')
 tokenized=preprocess_text(SOL)
 print(tokenized)
